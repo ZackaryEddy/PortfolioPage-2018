@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html ng-app>
+    <head>
+        <meta charset="utf-8">
+        <!--fluid size for mobile devices-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Zack Eddy</title>
+        <!--Bootstrap CSS file-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!--JQuery-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--Bootstrap JS file-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body style="background-color: rgb(145, 152, 173)">
+        <!--header-->
+        <a id="home"></a>
+        <div class="container" style="background-image: url('assets/header.jpg'); width: 100%; padding: 3%; ">
+            <img src="assets/logo.png" alt="logo that says Zack Eddy" class="img-thumbnail" style="width: 20%;">
+        </div>
+        <!--NavBar-->
+        <nav class="navbar navbar-inverse">
+                <div class="container-fluid">
+                  <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Portfolio</a>
+                  </div>
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#AboutMe">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#ContactMe">Contact Me</a></li>
+                  </ul>
+                </div>
+              </nav>
+        <!--About Me Section-->
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <h2><a id="AboutMe"></a>About Me:</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-7">
+                    <h3>Zack Eddy is a man that is used to wearing many hats. He is hardworking and a fast learner. Zack is a professional Software Developer, Web Developer, and Database Administrator.
+                        When he isn't working he's an amateur photographer and cinematographer.  </h3>
+                </div>
+                <div class="col-xs-5">
+                    <img src="assets/headshot.jpg" class="img-circle" height="200"/>
+                </div>
+            </div>
+            <hr>
+            <!--Past Projects Section-->
+            <div class="row">
+                <div class="col-xs-3">
+                    <h2><a id="projects"></a>Past Projects:</h2>
+                </div>
+            </div>
+            <hr>
+            <!--Bus Project Section-->
+            <div class="row">
+                <div class="col-xs-3">
+                    <h3>
+                        <a id="BusProject"></a>Bus Project:
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h4>
+                        This is a project I worked on back in College. It was an assignment that simulated a website to purchase a train ticket. Unfortunately, I didn't save the database data I had set up. So, it doesn't work right now.
+                        <br /> If you want to see the code behind any of it, I have it saved to a <a href="https://github.com/ZackaryEddy/BusProject">github repository here.</a>
+                    </h4>
+                </div>
+                <div class="col-xs-6">
+                    <img src="assets/Screenshot_2018-11-05 Bus Ticket.jpg" class="img-thumbnail"/>
+                </div>
+            </div>
+            <hr>
+            <!--Ozark Project-->
+            <div class="row">
+                <div class="col-xs-3">
+                    <h3>
+                        <a id="OzarkProject"></a>Ozark Mountains Project:
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <h4>
+                        This project was a group project that I did with three other people in College. I was elected group leader and lead the group on what to do. I took over the form page, and lead design meetings/did a lot of QA for the entire project. 
+                        <br />
+                        I have all of the code saved in a <a href="https://github.com/ZackaryEddy/OzarkProject">github repository here.</a> Unfortunately I don't have the database behind it so the page isn't in working order right now.
+                    </h4>
+                </div>
+                <div class="col-xs-6">
+                    <img src="assets/Screenshot_2018-11-04 Wild River Rapids.png" class="img-thumbnail"/>
+                </div>
+            </div>
+            <hr>
+            <!--Meta This project section-->
+            <div class="row">
+                <div class="col-xs-3">
+                    <h3>
+                        <a id="Portfolio"></a>This Portfolio Page:
+                    </h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-8">
+                    <h4>
+                        This is a page that I have made mainly with the bootstrap framework. I started this project the day before I started learning the framework. I will continue to update this page with other projects as I make them.
+                        <br />
+                        I also uploaded this page to a <a href="https://github.com/ZackaryEddy/PortfolioPage">Github repository</a>
+                    </h4>
+                </div>
+            </div>
+            <hr>
+            <!--Contact Me Form Section-->
+            <div class="row">
+                <div class="col-xs-3">
+                    <h3>
+                        <a id="ContactMe"></a>Contact Me!                   
+                    </h3>
+                    * denotes required field.
+                </div>
+            </div>
+            <form action="mailto:ZackEddy20@gmail.com" method="POST" enctype="text/plain"></form>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <h4>*First Name:</h4>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4> <input type="text" required></h4>   
+                    </div>
+                    <div class="col-xs-2">
+                        <h4>*Last Name: </h4>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="text" required></h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <h4>*Email:</h4>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4><input type="email" required></h4>
+                    </div>
+                    <div class="col-xs-2">
+                        <h4>Phone Number:</h4>
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="tel">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2">
+                        <h4>
+                            Input Message:
+                        </h4>
+                    </div>
+                    <div class="col-xs-5">
+                        <textarea rows="5" cols="50" name="message"></textarea>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-xs-2"></div>
+                    <div class="col-xs-2">
+                        <input type="submit" value="Send">
+                    </div>
+                    <div class="col-xs-3">
+                        <input type="reset">
+                    </div>
+                </div>
+                <hr>
+                <br />
+            </form>
+            </div> 
+        </div>
+        <br />
+        <div class="row">
+            <div style="width: 100%; background-color: rgba(9, 9, 10, 0.76); color: rgb(255, 249, 249); text-align: center; position: fixed; bottom: 0; left: 0;">
+                <p>Thanks for checking out my Portfolio! Feel free to reach out!</p>
+                <p>You can reach me at ZackEddy20@gmail.com</p>
+            </div>
+        </div>
+    </body>
+</html>
